@@ -1,0 +1,65 @@
+ * {
+   box-sizing: border-box;
+   margin: 0;
+ }
+.wrap {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.tegger {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.tegger__add-wrap {
+  display: flex;
+}
+
+.tegger__input {
+  width: 1px;
+  flex-grow: 3;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black
+}
+
+.tegger__add-btn {
+  width: 1px;
+  flex-grow: 1;
+  margin-left: 5px;
+}
+
+.tegger__teg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.tegger__readonly {
+  margin-top: 5px;
+  margin-left: auto;
+}
+
+.tegger__item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.tegger__item:last-child {
+  margin-bottom: 0;
+}
