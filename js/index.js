@@ -50,7 +50,7 @@ class Tegger {
     this.addBtn = this.el.querySelector('.tegger__add-btn');
 
     this.el.addEventListener('click', this._clickHandler);
-    this.readOnlyInput.addEventListener('change', this._toggleIsReadOnly);
+    this.readOnlyInput.addEventListener('change', this.toggleIsReadOnly);
 
     this._getFromLocalStorage();
     this._checkIsEmpty();

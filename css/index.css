@@ -15,7 +15,7 @@
   border: 1px solid black;
   border-radius: 5px;
   padding: 15px;
-  background-color: lavender;
+  background-color: antiquewhite;
 }
 
 .tegger__add-wrap {
@@ -28,17 +28,16 @@
   padding: 5px;
   border-radius: 5px;
   border: 1px solid black;
-  background-color: lavender;
 }
 
 .tegger__add-btn {
   width: 1px;
   flex-grow: 1;
   margin-left: 5px;
-  background-color: lavender;
   border-radius: 5px;
   border-width: 1px;
   cursor: pointer;
+  background-color: rgb(26, 181, 125);
 }
 
 .tegger__teg-container {
@@ -49,6 +48,7 @@
   margin-top: 15px;
   border-radius: 5px;
   padding: 10px;
+  background-color: white;
 }
 
 .tegger__readonly {
@@ -64,6 +64,7 @@
   border-radius: 5px;
   padding: 5px;
   margin-bottom: 5px;
+  background-color: azure;
 }
 
 .tegger__delete-btn {
